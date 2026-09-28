@@ -1,0 +1,46 @@
+<svg viewBox="0 0 420 180" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ZONE TOURISM LLC Tours &amp; Travels Agency">
+  <defs>
+    <linearGradient id="ztGlobeGrad" x1="280" y1="20" x2="350" y2="90" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#89C4F4" />
+      <stop offset="50%" stop-color="#258CD8" />
+      <stop offset="100%" stop-color="#0B4DA2" />
+    </linearGradient>
+    <linearGradient id="ztBlueSwoosh" x1="200" y1="50" x2="410" y2="150" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00A3E0" />
+      <stop offset="50%" stop-color="#0090D0" />
+      <stop offset="100%" stop-color="#0072CE" />
+    </linearGradient>
+    <linearGradient id="ztSilverSwoosh" x1="310" y1="60" x2="380" y2="140" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#B0B5BA" />
+      <stop offset="100%" stop-color="#7B838B" />
+    </linearGradient>
+    <linearGradient id="ztTextGrad" x1="30" y1="80" x2="220" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38B6FF" />
+      <stop offset="100%" stop-color="#0096E6" />
+    </linearGradient>
+    <filter id="ztGlow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#004080" flood-opacity="0.15" />
+    </filter>
+  </defs>
+
+  <!-- Globe Group -->
+  <g transform="translate(285, 12)">
+    <circle cx="50" cy="50" r="44" fill="url(#ztGlobeGrad)" />
+    <ellipse cx="42" cy="30" rx="30" ry="20" fill="white" opacity="0.3" />
+    <path d="M24 35 C28 28, 36 26, 44 28 C48 30, 46 36, 40 40 C36 43, 30 46, 26 42 Z M38 52 C44 50, 52 54, 50 62 C48 70, 38 78, 34 72 C32 66, 34 58, 38 52 Z M58 24 C64 22, 74 24, 76 30 C78 36, 70 42, 64 38 C60 34, 56 28, 58 24 Z M60 48 C66 44, 78 46, 80 54 C82 62, 72 68, 66 64 C62 60, 58 54, 60 48 Z" fill="white" opacity="0.85" />
+  </g>
+
+  <!-- Dynamic Swoosh Arcs -->
+  <path d="M 195 50 Q 320 48 375 78 Q 425 110 335 155 Q 215 175 220 174 Q 380 156 395 110 Q 405 76 310 52 Z" fill="url(#ztBlueSwoosh)" />
+  <path d="M 320 62 Q 380 82 388 108 Q 396 130 330 150 Q 375 128 368 108 Q 360 88 318 64 Z" fill="url(#ztSilverSwoosh)" />
+  <path d="M 245 168 Q 345 164 365 142 Q 380 126 385 116 Q 378 132 350 148 Q 305 165 245 168 Z" fill="#0096E6" />
+
+  <!-- Typography -->
+  <g filter="url(#ztGlow)">
+    <text x="20" y="120" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-size="72" font-weight="900" font-style="italic" letter-spacing="-1" fill="url(#ztTextGrad)" stroke="#1E293B" stroke-width="5" stroke-linejoin="round" paint-order="stroke fill">ZONE</text>
+    <text x="200" y="114" font-family="'Playfair Display', Georgia, cursive, serif" font-size="52" font-weight="700" font-style="italic" letter-spacing="0.5" fill="url(#ztTextGrad)" stroke="#1E293B" stroke-width="3.5" stroke-linejoin="round" paint-order="stroke fill">Tourism</text>
+  </g>
+  <text x="24" y="152" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-size="24" font-weight="800" font-style="italic" fill="#0F172A" letter-spacing="0.5">Tours &amp; Travels Agency</text>
+  <rect x="330" y="136" width="46" height="18" rx="4" fill="#0B4DA2" />
+  <text x="353" y="149" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="900" fill="#FFFFFF" text-anchor="middle">LLC</text>
+</svg>
